@@ -1,0 +1,71 @@
+
+table, th, td {
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+
+.navbar{
+	position: absolute; /* fixed absolute */
+	top:0;
+	left:0;
+	width: 100%;
+	background:#ffffff;
+	color:#ffb100;
+	z-index:1000;
+    padding: 3px;
+}
+
+.ptbrow{
+	background:#e5e5e5;
+	color:#ffffff;
+    background-color: #ffd067;
+}
+
+body {
+    font-family: "Verdana";
+    color: #795400;    
+    font-size: 16px;
+}
+
+p {
+    color: #795400;    
+    font-size: 15px;	
+}
+.h1Painel
+{
+	color: #271b01;
+    font-size: 45px;
+}
+.pExec
+{
+	font-weight: bold;
+	color: #cc8e00;
+}
+.pPend
+{
+	font-weight: bold;
+	color: #c3c0c0;
+}
+.pPerd
+{
+	font-weight: bold;
+	color: #8b0000;
+}
+.pPlan
+{
+	font-weight: bold;
+	color: #000539;
+}
+.pVisi 
+{
+	font-weight: bold;
+	color: #000539;
+}
+.pRein 
+{
+	font-weight: bold;
+	color: #000539;
+}

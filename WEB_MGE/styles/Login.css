@@ -1,0 +1,74 @@
+﻿body{
+    background:#ffffff;
+}
+
+#login{
+    height:400px;    
+    width:400px;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#ffffff;
+}
+
+#logo{
+    position:center;
+    height:150px;
+    background:#ffffff;
+}
+
+#data{
+    position:center;
+    height:10px;
+    background:#ffffff;
+}
+
+#mge{
+    position:absolute;
+    margin-top:15px;
+    margin-left:65px;
+    height:120px;
+}
+
+#labelTitulo{
+    position:relative;
+    left:84px;
+    color:#ff6600;
+}
+
+#lblUsuario{
+    position:relative;
+    left:74px;
+    font-size:15px;
+    font-family:Verdana;
+    color:#ff6600;
+}
+
+#lblSenha{
+    position:relative;
+    left:74px;
+    font-size:15px;
+    font-family:Verdana;
+    color:#ff6600;
+}
+
+#tbUsuario{
+    position:relative;
+    left: 81px;
+    font-family:Verdana;
+    border-color:#ff6600;
+}
+
+#tbSenha{
+    position:relative;
+    left: 90px;
+    font-family:Verdana;
+    border-color:#ff6600;
+}
+
+#btnEnviar{
+    position:relative;
+    left:170px;
+    font-size:small;
+    font-family:Verdana;
+}

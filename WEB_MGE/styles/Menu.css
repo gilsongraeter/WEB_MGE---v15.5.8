@@ -1,0 +1,9 @@
+﻿#tituloMenu{
+    width: 800px;
+    margin: 0px auto;
+}
+
+p{
+    text-align:center;
+    font: bold 30px arial;
+}
