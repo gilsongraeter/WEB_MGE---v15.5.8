@@ -1,0 +1,34 @@
+
+	// Parâmetros injetados no gráfico da função JavaScript
+        private int valor1;
+        private int valor2;
+        private int valor3;
+        private int valor4;
+        private int valor5;
+        private int valor6;
+        private int valor7;
+        private int valor8;
+        private int valor9;
+        private int valor10;
+
+        // Invoca a rotina JavaScript que desenha os gráficos
+        inserirGraficosNaPagina();
+        < script src = "/scripts/Default.js" ></ script >
+        < script src = "/scripts/Chart.js" ></ script >
+
+public void inserirGraficosNaPagina()
+        {
+            string rotinaJavaScript = "GerarGraficos(" + valor1 + ","
+                                                        + valor2 + ","
+                                                        + valor3 + ","
+                                                        + valor4 + ","
+                                                        + valor5 + ","
+                                                        + valor6 + ","
+                                                        + valor7 + ","
+                                                        + valor8 + ","
+                                                        + valor9 + ","
+                                                        + valor10 + ")";
+
+            Page.ClientScript.RegisterClientScriptInclude("FormScript", "/scripts/Default.js");
+            ScriptManager.RegisterClientScriptBlock(Page, Page.GetType(), "mensagem", rotinaJavaScript, true);
+        }

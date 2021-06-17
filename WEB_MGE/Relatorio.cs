@@ -1030,7 +1030,8 @@ namespace WEB_MGE
             Relatorio itemLista = new Relatorio();
 
             // Nome do arquivo que será aberto
-            string nomeArquivo = ("C:\\FTP\\WEB_MGE\\relatorio_" + Projeto + ".xml");
+            string nomeArquivo = (Variaveis_Globais.DiretorioRaiz + "\\relatorio_" + Projeto + ".xml");
+            //string nomeArquivo = ("C:\\MGE\\T.I\\Desenvolvimento\\WEB_SM_ANDON\\WEB_MGE - v15.5\\WEB_MGE\\relatorio_" + Projeto + ".xml");
 
             // Abre o arquivo XML dentro do objeto arquivoRelatorio
             XmlDocument arquivoRelatorio = new XmlDocument();
